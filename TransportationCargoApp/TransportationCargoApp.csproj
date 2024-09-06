@@ -43,6 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\CargoType.cs" />
+    <Compile Include="Classes\CargoVehicle.cs" />
+    <Compile Include="Classes\Driver.cs" />
+    <Compile Include="Classes\FreightTrain.cs" />
+    <Compile Include="Classes\GeneralItem.cs" />
+    <Compile Include="Classes\IContainable.cs" />
+    <Compile Include="Classes\IPortable.cs" />
+    <Compile Include="Classes\IShippingPriceCalculator.cs" />
+    <Compile Include="Classes\Port.cs" />
+    <Compile Include="Classes\RunApplication.cs" />
+    <Compile Include="Classes\ShippingPriceCalculator.cs" />
+    <Compile Include="Classes\StorageStructure.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
